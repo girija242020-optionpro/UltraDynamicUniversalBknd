@@ -1,0 +1,10 @@
+{
+  "name": "universal-dhan-market-data-engine",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Shared DhanHQ v2 market data backend for multiple independent PWAs",
+  "main": "server.js",
+  "scripts": {"start": "node server.js"},
+  "engines": {"node": ">=18.17.0"},
+  "dependencies": {"cors": "^2.8.5", "dotenv": "^16.4.5", "express": "^4.21.2", "ws": "^8.18.0", "web-push": "^3.6.7"}
+}
